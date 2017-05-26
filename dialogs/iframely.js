@@ -72,7 +72,7 @@
 
         var xmlHttp = null;
         xmlHttp = new XMLHttpRequest();
-        xmlHttp.open( 'GET', endpoint, false );
+        xmlHttp.open( 'GET', endpoint );
         xmlHttp.send( null );
 
         if (xmlHttp.status !== 200) {
